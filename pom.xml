@@ -86,7 +86,7 @@ of testing facilities designed for use with TestNG (http://testng.org/), so it's
 
     </dependencies>
     <build>
-        <finalName>test</finalName>
+        <finalName>tapestry</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

@@ -3,13 +3,5 @@
      We use a "strict" DTD to make IE follow the alignment rules. -->
 
 <html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd">
-
-
-<h1>Start page</h1>
-
-<ul>
-    <li><t:pagelink page="signUp">Sign up</t:pagelink></li>
-</ul>
-<t:grid source="users"
-        include="login, password"/>
+<t:beaneditform submitlabel="Submit" object="user"/>
 </html>

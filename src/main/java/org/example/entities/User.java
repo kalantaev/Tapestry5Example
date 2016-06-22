@@ -7,7 +7,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import java.sql.Date;
+import java.util.Date;
 
 /**
  * Created by Kalantaev Alexandr on 22.06.2016.
@@ -22,7 +22,9 @@ public class User {
     public String login;
     @Validate("required")
     public String password;
+    @NonVisual
     public Date dateRegistration;
+    @NonVisual
     public Date dateLastVizit;
 
 
